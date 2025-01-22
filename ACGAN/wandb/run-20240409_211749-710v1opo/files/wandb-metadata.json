@@ -1,0 +1,31 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "3.11.6",
+    "heartbeatAt": "2024-04-10T01:17:50.041225",
+    "startedAt": "2024-04-10T01:17:49.513257",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/arya/Downloads/CV/Project/ACGAN/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "host": "lawn-128-61-7-252.lawn.gatech.edu",
+    "username": "arya",
+    "executable": "/Users/arya/miniconda3/envs/tfenv/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 288.24813079833984
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

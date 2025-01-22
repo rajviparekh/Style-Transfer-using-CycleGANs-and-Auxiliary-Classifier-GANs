@@ -1,0 +1,12 @@
+# !/bin/bash
+# SBATCH -J cv_project   
+# SBATCH -N 4                          
+# SBATCH --ntasks-per-node=24                                
+# SBATCH -t 15:00:00                       
+       
+ 
+module load anaconda3
+conda activate cv_conda
+# module load cuda
+# module load cudnn
+python main.py
